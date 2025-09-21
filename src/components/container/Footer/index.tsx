@@ -61,16 +61,16 @@ export default function Footer() {
 
           <div className="flex items-center gap-3">
             <CircleBtn label="Facebook" href="#">
-              <span className="text-base font-semibold">f</span>
+              <img src="./images/social/fb.png" alt="" className="h-5 w-3" />
             </CircleBtn>
             <CircleBtn label="Instagram" href="#">
-              <span className="text-base font-semibold">ig</span>
+              <img src="./images/social/ig.png" alt="" className="h-5 w-5" />
             </CircleBtn>
             <CircleBtn label="LinkedIn" href="#">
-              <span className="text-base font-semibold">in</span>
+              <img src="./images/social/in.png" alt="" className="h-5 w-5" />
             </CircleBtn>
             <CircleBtn label="TikTok" href="#">
-              <span className="text-base font-semibold">t</span>
+              <img src="./images/social/tik.png" alt="" className="h-5 w-5" />
             </CircleBtn>
           </div>
         </div>
