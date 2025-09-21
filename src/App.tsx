@@ -1,13 +1,11 @@
-import Hero from "./components/container/HeroSection";
+import Hero from './components/container/HeroSection/Hero';
+import BrandsRow from './components/container/BrandsRow';
 
-function App() {
+export default function App() {
   return (
-    <>
-      <h1 className="text-3xl">code here</h1>
-      {/* example */}
+    <main className="min-h-dvh bg-white text-gray-900">
       <Hero />
-    </>
+      <BrandsRow />
+    </main>
   );
 }
-
-export default App;
