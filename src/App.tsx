@@ -2,6 +2,7 @@ import Navbar from './components/container/Navbar';
 import Hero from './components/container/HeroSection/Hero';
 import BrandsRow from './components/container/BrandsRow';
 import Stats from './components/container/Stats';
+import Process from './components/container/Process';
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Hero />
       <BrandsRow />
       <Stats />
+      <Process />
     </main>
   );
 }
