@@ -6,7 +6,8 @@ import Process from './components/container/Process';
 import Services from './components/container/Services';
 import Portfolio from './components/container/Portfolio';
 import Industry from './components/container/Industry';
-import Testimonials from "./components/container/Testimonials";
+import Testimonials from './components/container/Testimonials';
+import FAQ from './components/container/FAQ';
 
 export default function App() {
   return (
@@ -20,7 +21,7 @@ export default function App() {
       <Industry />
       <Portfolio />
       <Testimonials />
-      
+      <FAQ />
     </main>
   );
 }
