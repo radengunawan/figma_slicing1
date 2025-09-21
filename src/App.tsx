@@ -8,6 +8,7 @@ import Portfolio from './components/container/Portfolio';
 import Industry from './components/container/Industry';
 import Testimonials from './components/container/Testimonials';
 import FAQ from './components/container/FAQ';
+import Contact from './components/container/Contact';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
       <Portfolio />
       <Testimonials />
       <FAQ />
+      <Contact />
     </main>
   );
 }
