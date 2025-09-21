@@ -1,4 +1,4 @@
-import { Button } from '../../ui/Button';
+import Button from '../../ui/Button';
 
 const links = ['About', 'Service', 'Projects', 'Testimonials', 'FAQ'];
 
@@ -7,7 +7,11 @@ export default function Navbar() {
     <header className="sticky top-0 z-30 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60">
       <div className="mx-auto max-w-7xl h-16 px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
-          <img src="/logo.svg" alt="Your Logo" className="h-6 w-auto" />
+          <img
+            src="./images/logo_light.png"
+            alt="Your Logo"
+            className="h-6 w-auto"
+          />
           <span className="sr-only">Home</span>
         </a>
 
