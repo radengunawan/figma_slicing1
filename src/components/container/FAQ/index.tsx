@@ -9,19 +9,19 @@ const FAQS: QA[] = [
   },
   {
     q: 'How do I know if this is right for my business?',
-    a: 'We start with discovery to understand your goals, then propose the most suitable approach.',
+    a: 'Book a free consult — we’ll assess your goals and recommend the right approach.',
   },
   {
     q: 'How much does a project cost?',
-    a: 'Pricing depends on scope and timeline. After a quick call, we’ll share a clear estimate.',
+    a: 'Every project is different. Let’s talk about your needs to get a tailored estimate.',
   },
   {
     q: 'How long does it take?',
-    a: 'Most projects take 4–12 weeks depending on complexity and team size.',
+    a: 'Depends on scope — but we always prioritize quality and deadlines.',
   },
   {
     q: 'Can I start with a small project first?',
-    a: 'Absolutely. Many clients start with a small engagement or proof of concept.',
+    a: 'Absolutely. We often begin with MVPs or pilot projects.',
   },
 ];
 
