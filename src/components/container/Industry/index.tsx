@@ -24,7 +24,7 @@ const TABS: Tab[] = [
     key: 'health',
     label: 'Healthcare', // change to 'Healtcare' if you must match Figma text exactly
     desc: 'Empowering healthcare providers with digital solutions that improve patient care, ensure data privacy, and streamline operational workflows.',
-    img: ',/images/industry/pic3.png',
+    img: './images/industry/pic3.png',
   },
 ];
 
